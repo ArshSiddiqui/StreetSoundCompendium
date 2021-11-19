@@ -5,6 +5,6 @@ function formdata(){
 }
 
 function findSound(){
-	var audio = new Audio('sounds/CSLounge.M4A');
+	var audio = new Audio('sounds/CSLounge.m4a');
 	audio.play();
 }
