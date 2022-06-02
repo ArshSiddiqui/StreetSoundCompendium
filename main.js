@@ -1,13 +1,14 @@
 function formdata(){
 	console.log("Ici au moins");
-	//var streetAddress = document.getElementById("address").value();
+	let town = document.getElementById("town").value;
+	console.log(town);
 	//var country = document.getElementById("country").value();
-	//findSound();
+	findSound(town);
 }
 
-function findSound(){
+function findSound(town){
 	console.log("To play audio");
-	var audio = new Audio('sounds/CSLounge.m4a');
+	var audio = new Audio('sounds/' + town + '.m4a');//CSLounge
 	audio.play();
 	console.log("Playing audio");
 }
